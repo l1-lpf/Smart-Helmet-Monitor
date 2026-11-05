@@ -81,7 +81,7 @@ graph LR
 ├── export_onnx.py          # 模型格式转换脚本 (.pt -> .onnx)
 ├── train.py                # YOLOv11 数据集训练与微调脚本
 ├── voc2yolo.py             # 数据工程脚本：将 VOC XML 格式标注转换为 YOLO TXT 格式并自动划分数据集
-├── web_gradio.py           # Gradio 前端界面 (含自定义赛博风 UI)
+├── web_gradio.py           # Gradio 前端界面
 ├── start.py                # 前后端一键启动脚本
 ├── requirements.txt        # 环境依赖清单
 └── .gitignore              # 忽略大数据集与临时文件
